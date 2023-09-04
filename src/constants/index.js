@@ -4,23 +4,15 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
+  jQuery,
+  MySQL,
+  php,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  mp1,
+  mp2,
   tripguide,
   threejs,
 } from "../assets";
@@ -46,7 +38,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Vanilla javascript and JQuery",
     icon: mobile,
   },
   {
@@ -72,101 +64,71 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "jQuery",
+    icon: jQuery,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "MySQL",
+    icon: MySQL,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "PHP",
+    icon: php,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Codego BootCamp MP1",
+    company_name: "Online Catering Booking UI",
+    icon: "",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing web applications using HTML and CSS from scratch.",
+      "designing, researching, and making documentations.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Presents my projects to the panels for reviews.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Codego BootCamp MP2",
+    company_name: "blogging Platform w/ crud functionality",
+    icon: "",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing web applications using HTML, CSS, Vanilla Javascript, JQuery, PHP, MySQL and other related technologies from front-end to back-end",
+      "designing, researching, and making documentations.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Presents my projects to the panels for reviews.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Codego BootCamp capstone",
+    company_name: "EJ Online Bicycle Inventory",
+    icon: "",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing web applications using HTML, CSS, Vanilla Javascript, JQuery, PHP, MySQL and other related technologies from front-end to back-end",
+      "Colaborate with my partner for designing, researching, and making documentations.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Presents our projects to the panels for reviews.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
@@ -198,67 +160,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Online Catering booking UI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform showing the UI of online catering service",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mp1,
+    live_server_link: "https://mp1-edmond-serato.vercel.app/",
+    source_code_link: "https://github.com/nomnom0418/mp1_edmond_serato.git",
   },
   {
-    name: "Job IT",
+    name: "blogging Platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that have a CRUD funtionality enables users to create account, login, post blogs and see other users profile. The platform also has delete and edit feature",
     tags: [
       {
-        name: "react",
+        name: "Vanilla JavaScript, JQuery, PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HTML, CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mp2,
+    live_server_link: "http://weblog.000.pe",
+    source_code_link: "https://github.com/nomnom0418/group9MP2.git",
   },
   {
-    name: "Trip Guide",
+    name: "Online Bicycle Inventory System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Inventory system that enable the users, to see all the products and easily find the products with low stocks and out of stocks, it has a friendly user interface that can easily add products, edit and delete.",
     tags: [
       {
-        name: "nextjs",
+        name: "Vanilla JavaScript, JQuery, PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "HTML, CSS, Bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    live_server_link: "https://mp1-edmond-serato.vercel.app/",
+    source_code_link: "https://github.com/eddjohn/mp2_wd66p/tree/main/MP2",
   },
 ];
 
